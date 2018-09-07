@@ -1,33 +1,33 @@
 Layers
 
-active    1   Active Area   0,204,102 #00CC66   (2) (3)
-nwell     2   n-type well implant   0,204,102 #00CC66   (1) (2)
-pwell     3   p-type well implant   255,128,0 #FF8000   (1) (2)
-nimplant  -   n-type source/drain doping   0,204,102 #00CC66   (2) (3)
-pimplant  -   p-type source/drain doping   255,128,0 #FF8000   (2) (3)
-sblock    -   Salicide block   0,0,255 #0000FF   (1) (2)
-vthl      -   Low threshold implant      (3)
-vthg      -   General use threshold implant      (3)
-vthh      -   High threshold implant      (3)
-thkox     -   Thick oxide      (3)
-poly      -   Poly-silicon   255,0,0 #FF0000   (1) (2)
-contact   -   Metal 1 contact to poly or active   128,38,38 #802626   (2) (3)
-metal1    -   Metal 1   0,0,255 #0000FF   (1) (2)
-via1      -   Metal 2 contact to Metal 1   -   (1)
-metal2    -   Metal 2 (intermediate wires)   255,,0,255 #FF00FF   (1) (2)
-via2      -   Metal 3 contact to Metal 2   -   (1)
-metal3    -   Metal 3 (intermediate wiring)   0,255,255 #00FFFF   (1) (2)
-via3      -   Metal 4 contact to Metal 3   -   (1)
-metal4    -   Metal 4 (semi-global wiring)   255,255,204 #FFFFCC   (1) (2)
-via4      -   Metal 5 contact to Metal 4   -   (1)
-metal5    -   Metal 5 (semi-global wiring)   57,191,255 #39BFFF   (1) (2)
-via5      -   Metal 6 contact to Metal 5   -   (1)
-metal6    -   Metal 6 (semi-global wiring)   217,204,0 #D9CC00   (1) (2)
-via6      -   Metal 7 contact to Metal 6   -   -
-metal7    -   Metal 7 (thin-global wiring)   -   -
-via7      -   Metal 8 contact to Metal 7   -   -
-metal8    -   Metal 8 (thin-global wiring)   -   -
-via8      -   Metal 9 contact to Metal 8   -   -
-metal9    -   Metal 9 (global wiring)   -   -
-via9      -   Metal 10 contact to Metal 9   -   -
-metal10   -   Metal 10 (global wiring)   -   -
+active    1   Active Area
+nwell     2   n-type well implant
+pwell     3   p-type well implant
+nim       4   n-type source/drain doping
+pimp      5   p-type source/drain doping
+sblock    6   Salicide block
+vthl      7   Low threshold implant
+vthg      8   General use threshold implant
+vthh      9   High threshold implant
+thkox     10  Thick oxide
+poly      11  Poly-silicon
+con       12  Metal 1 contact to poly or active
+m1        13  Metal 1
+via1      14  Metal 2 contact to Metal 1
+m2        15  Metal 2 (intermediate wires)
+via2      16  Metal 3 contact to Metal 2
+m3        17  Metal 3 (intermediate wiring)
+via3      18  Metal 4 contact to Metal 3
+m4        19  Metal 4 (semi-global wiring)
+via4      20  Metal 5 contact to Metal 4
+m5        21  Metal 5 (semi-global wiring)
+via5      22  Metal 6 contact to Metal 5
+m6        23  Metal 6 (semi-global wiring)
+via6      24  Metal 7 contact to Metal 6
+m7        25  Metal 7 (thin-global wiring)
+via7      26  Metal 8 contact to Metal 7
+m8        27  Metal 8 (thin-global wiring)
+via8      28  Metal 9 contact to Metal 8
+m9        29  Metal 9 (global wiring)
+via9      30  Metal 10 contact to Metal 9
+m10       31  Metal 10 (global wiring)
